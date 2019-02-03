@@ -59,14 +59,6 @@ setTimeout(function() {
 lol();
 }, 3000);
 
-
-bot.on("message", function(msg) {
-  const str = msg.toString();
-  const [completeMsg, username, message] = str.match(/(.*) : (.*)/) || [str];
-  if (username && message) bot.emit("chat", username, message);
-  if (msg === number) {bot.exit()}
-});
-
 bot.on("kicked", function(reason, loggedIn) {
   console.log('I got disconnected x.x');
 });
