@@ -5,13 +5,13 @@ AutoTipJS for Hypixel
 *How to add your own account:*
 
 *Here is the code,*
-**const bot = mineflayer.createBot({
+``const bot = mineflayer.createBot({
   host: "play.hypixel.net",
   port: "25565",
   username: "example@example.com",
   password: "password",
   version: "1.8.8",
-});**
+});``
 
 *What should I do with it?
 First, you see the quotes next to password? Inside that is where you are going to be entering your password.
