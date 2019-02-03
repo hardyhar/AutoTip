@@ -24,12 +24,12 @@ This is *pb2319* (public beta, and the numbers are the month, day, and year.)
 
 **YOU MUST HAVE NODE.JS INSTALLED WITH THE MINEFLAYER PACKAGE**
 
-``"Installing an package globally
+"Installing an package globally
 Packages are like addons to the code to make things easier and add more features.
 
 npm install -g <package_name>
 
-This will install this node module globally so you can use it whenever you want."``
+This will install this node module globally so you can use it whenever you want."
 
 From https://docs.npmjs.com/downloading-and-installing-packages-locally, By node.js Dev Team.
 
