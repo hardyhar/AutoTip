@@ -33,7 +33,7 @@ This will install this node module globally so you can use it whenever you want.
 
 From https://docs.npmjs.com/downloading-and-installing-packages-locally, By node.js Dev Team.
 
-**INSTALL NODE.JS HERE: nodejs.org/en/**
+**INSTALL NODE.JS HERE:** https://nodejs.org/en/
 
 Look for the code and do the things I said above.
 
