@@ -29,9 +29,6 @@ function getRandomInt(min, max) {
   return Math.floor(Math.random() * (max - min)) + min; //The maximum is exclusive and the minimum is inclusive
 }
 
-let number = getRandomInt(56773, 2384827241)
-var number2 = getRandomInt(56773, 2384827241)
-
 bot.once('spawn', () => {
 console.log("   #                        #######                        ");
 console.log("  # #   #    # #####  ####     #    # #####       #  ####");
@@ -40,7 +37,7 @@ console.log("#     # #    #   #   #    #    #    # #    #      #  ####");
 console.log("####### #    #   #   #    #    #    # #####       #     #");
 console.log("#     # #    #   #   #    #    #    # #      #    # #   #");
 console.log("#     #  ####    #    ####     #    # #       ####   ####");                                                          
-console.log("By hardyhar v1.0");
+console.log("By hardyhar [pb2419]");
 console.log("Your shutdown code is... " + number)
 bot.chat("/tip all");
 console.log("Tipped All! " + "[" + getTimeStamp() + "]");
